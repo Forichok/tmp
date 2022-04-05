@@ -1,0 +1,18 @@
+version: "2"
+plugins:
+  sonar-java:
+    enabled: true
+  fixme:
+    enabled: true
+  csslint:
+    enabled: true
+  coffeelint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+        - javascript
+        - java
+  eslint:
+    enabled: true
